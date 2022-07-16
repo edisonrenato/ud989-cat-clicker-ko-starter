@@ -9,7 +9,8 @@ var ViewModel = function (){
   },this);
   this.incrementCounter = function (){
     this.clickCount(this.clickCount() + 1);
-  }
+  };
+  this.nickname = ["lindo","fofo","momo", "mimi"]
 
 };
 
